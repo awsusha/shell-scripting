@@ -3,15 +3,11 @@
 # Use $ to get variable data
 
 test_variable="Usha"
-echo test_variable = $test_variable
+echo test_variable = ${test_variable}
 
 #Command substitution
 DATE=$(date +%F)
-echo Today Date is $DATE
-
-## Arithmetic Substitution
-EXPR1=$(2+3)
-echo EXPR1 OUTPUT = $EXPR1
+echo "Today Date is $DATE"
 
 ## To Get input from command line use read command
 read -p "Enter your name:" Name
