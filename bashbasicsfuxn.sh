@@ -14,8 +14,8 @@ TEST() {
 ## Main Program
 ## Call the function
 a=20
-test
-test
+TEST
+TEST
 b=20
 
 SAMPLE1() {
