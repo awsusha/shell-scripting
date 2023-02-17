@@ -15,5 +15,12 @@ echo "Your Name = $Name"
 read -p "Enter Course Name:" Course
 echo "You Course = $Course"
 
+## Special Variables -
+echo $0 # Script Name
+echo $1 # First Argument
+echo $2 # Second Argument
+echo $# # Number of Arguments
+echo $* # All the arguments
+
 
 
