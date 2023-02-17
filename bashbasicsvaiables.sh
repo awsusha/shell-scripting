@@ -2,15 +2,15 @@
 # Default variable type is string
 # Use $ to get variable data
 
-test_variable= "Usha"
+test_variable="Usha"
 echo test_variable = $test_variable
 
 #Command substitution
-DATE= $(date +%F)
+DATE=$(date +%F)
 echo Today Date is $DATE
 
 ## Arithmetic Substitution
-EXPR1= $(2+3)
+EXPR1=$(2+3)
 echo EXPR1 OUTPUT = $EXPR1
 
 ## To Get input from command line use read command
